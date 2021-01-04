@@ -1,0 +1,48 @@
+h1{
+    color:#D9FFFF
+}
+
+*{
+  margin: 20px;
+}
+a:link{
+  color: aliceblue;
+}
+a:visited{
+  color: blue
+}
+
+.Designs{
+    background-color:#000000;
+    display: flex;
+    font-style: italic;
+    font-size:xx-large;
+}
+
+.Chemeleon{
+    background-color:#00FF00;
+  display: flex;
+  flex-flow: column;
+  font-size: xx-large;
+  padding: 20px;
+  
+}
+
+.Pigeon{
+background-color:#FF0000;
+  display: flex;
+  flex-flow: column;
+  font-size: xx-large;
+  padding-top:20px;
+
+}
+
+.all{
+  margin: inherit;
+}
+.all p{
+  opacity: 1;
+}
+.all :hover img{
+  opacity: 0.3;
+}
